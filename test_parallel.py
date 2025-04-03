@@ -11,7 +11,6 @@ def compliance_job_json_with_mock_users(request):
     """
     test_name = request.param
 
-    # Mocked compliance job result
     compliance_results = {
         "compliance_check_pass": {"status": "pass", "error": 0},
         "compliance_check_fail": {"status": "fail", "error": 3},
